@@ -7,38 +7,47 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title>Nike Store</title>
+    <link rel="stylesheet" href="style\style.css">
+    <link rel="icon" href="img\Pluto_Sneakers__1_-removebg-preview.png" type="image/png">
+    <title>E-Commerce Nike</title>
 </head>
 
 <body>
     <nav id="nav">
         <div class="navTop">
             <div class="navItem">
-                <img src="./img/sneakers.png" alt="">
+                <img src="img\Pluto_Sneakers__1_-removebg-preview.png" alt="logo" height="150" width="150">
             </div>
             <div class="navItem">
                 <div class="search">
-                    <input type="text" placeholder="Search..." class="searchInput">
-                    <img src="./img/search.png" width="20" height="20" alt="" class="searchIcon">
+                    <input placeholder="Type to search..." required="" class="input" name="text" type="text">
+                    <div class="icon">
+                        <svg viewBox="0 0 512 512" class="ionicon" xmlns="http://www.w3.org/2000/svg">
+                            <title>Search</title>
+                            <path stroke-width="32" stroke-miterlimit="10" stroke="currentColor" fill="none"
+                                d="M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z"></path>
+                            <path d="M338.29 338.29L448 448" stroke-width="32" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke="currentColor" fill="none"></path>
+                        </svg>
+                    </div>
                 </div>
             </div>
             <div class="navItem">
-                <span class="limitedOffer">Limited Offer!</span>
+                <span class="limitedOffer">Penawaran Terbatas!</span>
             </div>
         </div>
         <div class="navBottom">
-            <h3 class="menuItem">AIR FORCE</h3>
-            <h3 class="menuItem">JORDAN</h3>
-            <h3 class="menuItem">BLAZER</h3>
-            <h3 class="menuItem">CRATER</h3>
-            <h3 class="menuItem">HIPPIE</h3>
+            <h3 class="menuItem" data.filter="AIR FORCE">AIR FORCE</h3>
+            <h3 class="menuItem" data.filter="JORDAN">JORDAN</h3>
+            <h3 class="menuItem" data.filter="BLAZER">BLAZER</h3>
+            <h3 class="menuItem" data.filter="CRATER">CRATER</h3>
+            <h3 class="menuItem" data.filter="HIPPIE">HIPPIE</h3>
         </div>
     </nav>
     <div class="slider">
         <div class="sliderWrapper">
             <div class="sliderItem">
-                <img src="./img/air.png" alt="" class="sliderImg">
+                <img src="./img/air.png" alt="AIR FORCE" class="sliderImg">
                 <div class="sliderBg"></div>
                 <h1 class="sliderTitle">AIR FORCE</br> NEW</br> SEASON</h1>
                 <h2 class="sliderPrice">$119</h2>
@@ -47,7 +56,7 @@
                 </a>
             </div>
             <div class="sliderItem">
-                <img src="./img/jordan.png" alt="" class="sliderImg">
+                <img src="./img/jordan.png" alt="AIR JORDAN" class="sliderImg">
                 <div class="sliderBg"></div>
                 <h1 class="sliderTitle">AIR JORDAN</br> NEW</br> SEASON</h1>
                 <h2 class="sliderPrice">$149</h2>
@@ -56,7 +65,7 @@
                 </a>
             </div>
             <div class="sliderItem">
-                <img src="./img/blazer.png" alt="" class="sliderImg">
+                <img src="./img/blazer.png" alt="BLAZER" class="sliderImg">
                 <div class="sliderBg"></div>
                 <h1 class="sliderTitle">BLAZER</br> NEW</br> SEASON</h1>
                 <h2 class="sliderPrice">$109</h2>
@@ -65,7 +74,7 @@
                 </a>
             </div>
             <div class="sliderItem">
-                <img src="./img/crater.png" alt="" class="sliderImg">
+                <img src="./img/crater.png" alt="CRATER" class="sliderImg">
                 <div class="sliderBg"></div>
                 <h1 class="sliderTitle">CRATER</br> NEW</br> SEASON</h1>
                 <h2 class="sliderPrice">$129</h2>
@@ -74,7 +83,7 @@
                 </a>
             </div>
             <div class="sliderItem">
-                <img src="./img/hippie.png" alt="" class="sliderImg">
+                <img src="./img/hippie.png" alt="HIPPIE" class="sliderImg">
                 <div class="sliderBg"></div>
                 <h1 class="sliderTitle">HIPPIE</br> NEW</br> SEASON</h1>
                 <h2 class="sliderPrice">$99</h2>
@@ -87,29 +96,29 @@
    
     <div class="features">
         <div class="feature">
-            <img src="./img/shipping.png" alt="" class="featureIcon">
-            <span class="featureTitle">FREE SHIPPING</span>
-            <span class="featureDesc">Free worldwide shipping on all orders.</span>
+            <img src="./img/shipping.png" alt="FEE SHIPPING" class="featureIcon">
+            <span class="featureTitle">GRATIS ONGKIR</span>
+            <span class="featureDesc">Pengiriman gratis ke seluruh jabodetabek untuk semua pesanan.</span>
         </div>
         <div class="feature">
             <img class="featureIcon" src="./img/return.png" alt="">
-            <span class="featureTitle">30 DAYS RETURN</span>
-            <span class="featureDesc">No question return and easy refund in 14 days.</span>
+            <span class="featureTitle">PENGEMBALIAN 30 HARI</span>
+            <span class="featureDesc">Tidak ada pertanyaan kembali dan pengembalian uang mudah dalam 14 hari.</span>
         </div>
         <div class="feature">
             <img class="featureIcon" src="./img/gift.png" alt="">
-            <span class="featureTitle">GIFT CARDS</span>
-            <span class="featureDesc">Buy gift cards and use coupon codes easily.</span>
+            <span class="featureTitle">KARTU HADIAH</span>
+            <span class="featureDesc">Beli kartu hadiah dan gunakan kode kupon dengan mudah.</span>
         </div>
         <div class="feature">
             <img class="featureIcon" src="./img/contact.png" alt="">
-            <span class="featureTitle">CONTACT US!</span>
-            <span class="featureDesc">Keep in touch via email and support system.</span>
+            <span class="featureTitle">HUBUNGI KAMI</span>
+            <span class="featureDesc">Tetap berhubungan melalui WhatsApp dan sistem dukungan. Berikut no WhatsApp kami +6281310913732</span>
         </div>
     </div>
 
     <div class="product" id="product">
-        <img src="./img/air.png" alt="" class="productImg">
+        <img src="./img/air.png" alt="AIR FORCE" class="productImg">
         <div class="productDetails">
             <h1 class="productTitle">AIR FORCE</h1>
             <h2 class="productPrice">$199</h2>
@@ -125,16 +134,18 @@
                 <div class="size">43</div>
                 <div class="size">44</div>
             </div>
-            <button class="productButton">BUY NOW!</button>
+            <button class="productButton" onclick="buy">BUY NOW!</button>
         </div>
 <div class="payment">
     <h1 class="payTitle">Personal Information</h1>
-    <label>Name and Surname</label>
-    <input type="text" placeholder="John Doe" class="payInput" id="name">
-    <label>Phone Number</label>
-    <input type="text" placeholder="+1 234 5678" class="payInput" id="phone">
-    <label>Address</label>
-    <input type="text" placeholder="Elton St 21 22-145" class="payInput" id="address">
+    <label>Nama Pembeli</label>
+    <input type="text" placeholder="Nama Anda" class="payInput" id="name">
+    <label>Nomor Handphone</label>
+    <input type="text" placeholder="No Handphone" class="payInput" id="phone">
+    <label>Alamat Tinggal</label>
+    <input type="text" placeholder="Alamat" class="payInput" id="address">
+    <label>Prouduct</label>
+    <input type="text" placeholder="Name Product" class="payInput" id="productX">
     <h1 class="payTitle">Card Information</h1>
     <div class="cardIcons">
         <img src="./img/visa.png" width="40" alt="" class="cardIcon">
@@ -142,11 +153,23 @@
     </div>
     <input type="password" class="payInput" placeholder="Card Number" id="cardNumber">
     <div class="cardInfo">
-        <input type="text" placeholder="mm" class="payInput sm" id="expiryMonth">
-        <input type="text" placeholder="yyyy" class="payInput sm" id="expiryYear">
-        <input type="text" placeholder="cvv" class="payInput sm" id="cvv">
+        <input type="text" placeholder="Bulan" class="payInput sm" id="expiryMonth">
+        <input type="text" placeholder="Tahun" class="payInput sm" id="expiryYear">
+        <input type="text" placeholder="Tanggal" class="payInput sm" id="cvv">
     </div>
-    <button class="payButton" onclick="checkout()">Checkout!</button>
+    <!--<button class="payButton" onclick="checkout()">Checkout!</button>-->
+    <div class="button" data-tooltip="Click" onclick="checkout()">
+        <div class="button-wrapper">
+            <div class="payButton" >Checkout</div>
+            <span class="iconic">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart4"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z" />
+                </svg>
+            </span>
+        </div>
+    </div>
     <span class="close">X</span>
 </div>
     </div>
@@ -241,87 +264,10 @@
         </div>
     </footer>
     <script src="./app.js"></script>
-    <script>
-        function checkout() {
-                // Get input values
-                const name = document.getElementById("name").value;
-                const phone = document.getElementById("phone").value;
-                const address = document.getElementById("address").value;
-                const cardNumber = document.getElementById("cardNumber").value;
-                const expiryMonth = document.getElementById("expiryMonth").value;
-                const expiryYear = document.getElementById("expiryYear").value;
-                const cvv = document.getElementById("cvv").value;
-
-                // Create order object
-                const order = {
-                    name,
-                    phone,
-                    address,
-                    cardNumber,
-                    expiryMonth,
-                    expiryYear,
-                    cvv
-                };
-
-                // Get existing orders from LocalStorage
-                let orders = localStorage.getItem("orders");
-                if (orders) {
-                    orders = JSON.parse(orders);
-                } else {
-                    orders = [];
-                }
-
-                // Add new order to orders array
-                orders.push(order);
-
-                // Save orders array to LocalStorage
-                localStorage.setItem("orders", JSON.stringify(orders));
-
-                // Send data to server
-                const xhr = new XMLHttpRequest();
-                xhr.open("POST", "data.json", true);
-                xhr.setRequestHeader("Content-type", "application/json");
-                xhr.onreadystatechange = function () {
-                    if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
-                        console.log("Data sent successfully");
-                    }
-                };
-                xhr.send(JSON.stringify(orders));
-
-                // Show success message
-                alert("Order successfully processed!");
-            }
-
-
-    </script>
-    <script>
-        const fs = require('fs');
-
-            // Read existing data from file
-            let data = fs.readFileSync('data.json');
-            let orders = JSON.parse(data);
-
-            // Create new order object
-            const order = {
-                name: "John Doe",
-                phone: "+1 234 5678",
-                address: "Elton St 21 22-145",
-                cardNumber: "1234 5678 9012 3456",
-                expiryMonth: "12",
-                expiryYear: "2025",
-                cvv: "123"
-            };
-
-            // Add new order to orders array
-            orders.push(order);
-
-            // Write updated data back to file
-            fs.writeFileSync('data.json', JSON.stringify(orders));
-
-            console.log('Order successfully processed!');
-
-    </script>
+    <script src="api\wa-api.js"></script>
     <script src="server.js"></script>
+    <script src="search.js"></script>
+    <script src="data\data.js"></script>
 </body>
 
 </html>
