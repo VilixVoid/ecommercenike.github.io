@@ -715,12 +715,25 @@ footer {
       height: 80%;
     }
 
+    .navTop{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .navTop .navItem img {
+      height: 50;
+      width: 50;
+      top: 1px;
+      align-items: center;
+    }
+
   .navBottom{
-    flex-wrap: wrap;
+    display: flex;
   }
 
   .navItem img{
-    height: 90;
+    height: 100;
     width: 90;
     position: relative;
     flex-direction: column;
@@ -728,9 +741,9 @@ footer {
   }
 
   .menuItem{
-    margin: 20px;
+    margin: 5px;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 13px;
   }
 
   .slider{

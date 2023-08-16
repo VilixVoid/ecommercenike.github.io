@@ -18,20 +18,7 @@
             <div class="navItem">
                 <img src="img\Pluto_Sneakers__1_-removebg-preview.png" alt="logo" height="150" width="150">
             </div>
-            <div class="navItem">
-                <div class="search">
-                    <input placeholder="Type to search..." required="" class="input" name="text" type="text">
-                    <div class="icon">
-                        <svg viewBox="0 0 512 512" class="ionicon" xmlns="http://www.w3.org/2000/svg">
-                            <title>Search</title>
-                            <path stroke-width="32" stroke-miterlimit="10" stroke="currentColor" fill="none"
-                                d="M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z"></path>
-                            <path d="M338.29 338.29L448 448" stroke-width="32" stroke-miterlimit="10" stroke-linecap="round"
-                                stroke="currentColor" fill="none"></path>
-                        </svg>
-                    </div>
-                </div>
-            </div>
+
             <div class="navItem">
                 <span class="limitedOffer">Penawaran Terbatas!</span>
             </div>
@@ -129,7 +116,7 @@
                 <div class="color"></div>
                 <div class="color"></div>
             </div>
-            <div class="sizes">
+            <div class="sizes" id="sizes">
                 <div class="size">42</div>
                 <div class="size">43</div>
                 <div class="size">44</div>
@@ -146,6 +133,12 @@
     <input type="text" placeholder="Alamat" class="payInput" id="address">
     <label>Prouduct</label>
     <input type="text" placeholder="Name Product" class="payInput" id="productX">
+    <label>Size</label>
+    <div class="sizes" id="sizes">
+        <label for="size42"><input type="radio" id="size42" name="size" value="42"> 42</label>
+        <label for="size43"><input type="radio" id="size43" name="size" value="43"> 43</label>
+        <label for="size44"><input type="radio" id="size44" name="size" value="44"> 44</label>
+    </div>
     <h1 class="payTitle">Card Information</h1>
     <div class="cardIcons">
         <img src="./img/visa.png" width="40" alt="" class="cardIcon">
